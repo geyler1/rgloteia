@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: nowrap;
+}
+main {
+  flex: 1 1 auto;
+}
+main.main {
+  width: 100%;
+  max-width: 768px;
+  margin: 0px auto 30px;
+}

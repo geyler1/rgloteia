@@ -1,0 +1,278 @@
+.atras-balance, .contenido-precio-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 10px 0px 20px 0px;
+}
+.contenido-metodo-de-pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-card-modal-comprar {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 350px;
+}
+.btn-modal-balance {
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.mibalance.modals {
+  padding: 0px;
+  color: black;
+}
+.contenido-precio-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenido-precio-total.imagen {
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 20px 0px 0px;
+}
+.balance-total {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+span.monedas-a-comprar {
+  padding: 0px 0px 3px 5px;
+}
+.contenido-precio-total.total-precio {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 18px;
+}
+.contenido-metodo-de-pago span {
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  font-size: 16px;
+}
+.btn-pagar, .btn-form , .card-login button{
+  width: 100%;
+  /*max-width: 280px;*/
+  margin: 12px auto;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #b6b6b6;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn-pagar:hover, .btn-form:hover, .card-login button:hover{
+  border: 1px solid #b6b6b6;
+  background: #ebebeb;
+  cursor: pointer;
+  color: #000000;
+}
+.contenido-card-modal-paso2.cerrada, .contenido-card-modal-comprar.cerrada {
+  display: none;
+}
+.contenido-card-modal-paso2.abierta, .contenido-card-modal-comprar.abierta {
+  display: block;
+}
+.contenido-card-modal-paso2.abierta {
+  max-width: 350px;
+  width: 100%;
+  margin: 0px auto;
+}
+.btn-cerrar-modal.ir-atras {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1 !important;
+}
+.atras-balance {
+  height: 32px;
+}
+.balance-a-pagar.copy-balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balance-a-pagar.copy-balance span {
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+.contenido-precio-total.total-precio.en-crypto {
+  border: none;
+  padding: 20px 0px 0px 0px;
+}
+.mensaje-agregar-billetera {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+}
+span.mensaje-billetera {
+  margin: 10px 0px 15px 0px;
+  font-size: 14px;
+  color: red;
+}
+span.moneda-a-pagar {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  font-size: 14px;
+}
+.list-pago {
+  display: flex;
+  width: 100%;
+  margin: 20px 10px 30px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #e9e9e9;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.card-card-recargar {
+  width: calc(25% - 20px);
+  margin: 10px;
+}
+@media(max-width:650px){
+  .card-card-recargar {
+    width: calc(33% - 20px);
+    margin: 10px;
+}
+}
+@media(max-width:520px){
+  .card-card-recargar {
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+}
+form.form-editar-perfil {
+  max-width: 100%;
+  width: 100%;
+  margin: 20px auto;
+}
+.content-transferencias {
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  padding: 20px 10px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #e9e9e9;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.componente-usuario-a-transferir ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.componente-usuario-a-transferir {
+  display: flex;
+  width: 100%;
+}
+@media(min-width:430px){
+  .componente-usuario-a-transferir .contenedor-name-username {
+    max-width: 250px !important;
+}
+.contenedor-name-username span {
+  max-width: 300px !important;
+}
+}
+@media(max-width:365px){
+  .componente-usuario-a-transferir .contenedor-name-username {
+    max-width: 120px !important;
+    width: 100%;
+}
+}
+span.mi-billetera-aqui {
+  min-width: 400px;
+  max-width: calc(100% - 42px);
+}
+@media(max-width:500px){
+  span.mi-billetera-aqui {
+    min-width: calc(100% - 42px);
+}
+}
+
+ul.ul-transferencias {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.al100 {
+  width: 100%;
+}
+span.saldo-negativo {
+  color: #f44336 !important;
+}
+
+.relojUTC iframe {
+  width: 150px;
+  height: 110px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.shadow-border{
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #e9e9e9;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+}
+ul.list-numeros-ventas {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #e9e9e9;
+  box-sizing: border-box;
+}
+li.numeros-en-venta:hover {
+  box-shadow: 1px 1px 10px #ffbc19;
+}
+li.numeros-en-venta {
+  font-size: 20px;
+  background: radial-gradient(circle at 19px 10px,#ffbc19,#3f3f3f);
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px 10px 12px 10px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+li.numeros-en-venta.mini {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    margin: 0px 0px 0px 10px;
+}
+span.saldo-disponible-comprar {
+  font-size: 18px !important;
+}
+h3.titulo-numeros {
+  width: 100%;
+}
+

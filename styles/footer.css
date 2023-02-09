@@ -1,0 +1,42 @@
+footer {
+  padding: 20px;
+  background: #242424;
+  color: white;
+}
+footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer ul li a {
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 35px;
+}
+footer ul li a:hover {
+  color: #ffbc19;
+  background: #3b3b3b;
+}
+.copyright {
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+  color: white;
+  font-size: 16px;
+}
+ul.texto-footer-ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 20px 0px;
+}
+li.texto-footer-li {
+  text-align: center;
+}

@@ -1,0 +1,110 @@
+.listado-ref ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor-referidos-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+}
+.contenedor-foto-usuario {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contenedor-name-username {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  max-width: 170px;
+  overflow: hidden;
+  max-height: 45px;
+}
+.contenedor-name-username span {
+  height: 22px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  max-width: 170px;
+}
+.imagen-perfil.referido {
+  height: 44px;
+}
+.contenedor-monedas-ganadas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffbd00;
+}
+span.span-moneda {
+  width: 18px;
+  height: 18px;
+  margin: 0px 5px 0px 0px;
+}
+.listado-ref ul {
+  list-style: none;
+  padding: 10px;
+  margin: 30px 10px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 1px 1px 10px #e9e9e9;
+}
+span.texto-span-referidos {
+  padding: 0px 0px 20px 0px;
+  display: block;
+  width: 100%;
+}
+.listado-ref .mi-billetera.link-referido {
+  margin: 0px 0px 15px 0px !important;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 10px;
+}
+ul.charada-ul {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 1px 1px 10px #e9e9e9;
+  list-style: none;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200 {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 0px;
+  border-bottom: 1px solid #dbdbdb;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200 span:nth-child(1) {
+  width: 40px !important;
+  display: block;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid #dbdbdb;
+  font-weight: bold;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200 span:nth-child(2) {
+  width: 100%;
+  padding-left: 12px;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200:nth-child(2) > span:nth-child(1) {
+  font-size: 20px;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200:nth-child(2) > span:nth-child(2) {
+  font-weight: bold;
+  font-size: 16px;
+}
+li.flex flex-nowrap py-1 border-b border-slate-200 h3 {
+  padding: 0px 0px 10px 0px;
+}
